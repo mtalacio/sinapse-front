@@ -6,7 +6,7 @@ export const useSocket = () => {
     return useContext(SocketContext);
 }
 
-const ws = new WebSocket('ws://localhost:3000');
+const ws = new WebSocket('ws://34.227.14.168:3000');
 
 export const SocketProvider = ({children}) => {
 
